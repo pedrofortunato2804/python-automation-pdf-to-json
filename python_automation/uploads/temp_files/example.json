@@ -1,0 +1,200 @@
+{
+  "documento": "MINUTA DE ESCRITURA PÚBLICA DE VENDA E COMPRA",
+  "fonte": {
+    "site": "www.siteleilao.com.br",
+    "leiloeiro": "Fulano de Tal - Leiloeiro Público Oficial"
+  },
+  "escritorios": [
+    {
+      "cidade": "Santa Maria",
+      "estado": "RS",
+      "endereco": "Rua do Sul, 1234",
+      "cep": "99999-123",
+      "telefone": "(55) 3333-3333",
+      "celular": "(51) 99999-9999",
+      "email": "santamaria@siteleilao.com.br"
+    },
+    {
+      "cidade": "Porto Alegre",
+      "estado": "RS",
+      "endereco": "Rua do Norte, 123",
+      "cep": "99999-123",
+      "telefone": "(51) 3333-3333",
+      "celular": "(51) 99999-9999",
+      "email": "leilao@siteleilao.com.br"
+    }
+  ],
+  "partes": {
+    "outorgante_vendedor": {
+      "nome": "Fulano de Tal",
+      "estabelecido": "Capital do Estado de Minas Gerais",
+      "sede": "Cidade Tal",
+      "cnpj": "99.999.999/0001-99",
+      "representacao": {
+        "procuração": {
+          "cartorio": "Alguma Coisa Cartório Tal de Tal",
+          "livro": "Tal Qual",
+          "folhas": "1 - 517"
+        }
+      }
+    },
+    "outorgados_compradores": [
+      {
+        "nome": "Fulana Ciclana da Silva Santos Silva e Santos"
+      }
+    ]
+  },
+  "imovel": {
+    "propriedade": {
+      "registro_numero": "0123495",
+      "matricula": "21",
+      "cri": "123",
+      "ano": "2011"
+    },
+    "descricao": "(DESCREVER O IMÓVEL)",
+    "aquisição_anterior": {
+      "forma": "Forma",
+      "registro_numero": "211",
+      "matriculas": [
+        "244",
+        "245"
+      ],
+      "cartorio": "Cartório de Imóveis de Cidade Fulano"
+    },
+    "cadastro_prefeitura": {
+      "municipio": "Cidade Fulano",
+      "inscricoes": [
+        "218",
+        "2178",
+        "312",
+        "1234"
+      ],
+      "valor_venal": {
+        "valor": 1000.0,
+        "moeda": "BRL",
+        "extenso": "MIL REAIS",
+        "exercicio": "presente exercício"
+      }
+    }
+  },
+  "leilao": {
+    "condicoes_incorporadas_ao_instrumento": true,
+    "data_edital": "23/01/2020",
+    "data_leilao_lance_vencedor": "21/03/2020",
+    "preco_venda": {
+      "valor": 1500.0,
+      "moeda": "BRL",
+      "extenso": "MIL E QUINHENTOS REAIS"
+    },
+    "data_pagamento": "25/03/2020",
+    "quitacao_conferida": true,
+    "transferencia_dominio": true
+  },
+  "clausulas": [
+    {
+      "numero": 1,
+      "resumo": "Vendedor proprietário do imóvel conforme registro e matrícula; imóvel descrito e aquisições anteriores; cadastro municipal e valor venal."
+    },
+    {
+      "numero": 2,
+      "resumo": "Venda nas condições do Edital de Leilão de 23/01/2020, incorporadas por adesão."
+    },
+    {
+      "numero": 3,
+      "resumo": "Venda pelo lance vencedor do leilão de 21/03/2020; preço pago em 25/03/2020; quitação e transferência; responsabilidade por evicção conforme lei."
+    },
+    {
+      "numero": 4,
+      "resumo": "Venda Ad Corpus; descrições e metragens são enunciativas; não há direito a complemento de área, rescisão ou abatimento por divergências.",
+      "tipo_venda": "Ad Corpus"
+    },
+    {
+      "numero": 5,
+      "resumo": "Todas as providências e despesas de transferência (inclusive ITBI, taxas, certidões, escrituras, emolumentos, registros, averbações, desmembramentos) são do comprador."
+    },
+    {
+      "numero": 6,
+      "resumo": "Avença vinculada ao instrumento, ao Edital do Leilão de 23/01/2020 e ao Direito Privado."
+    },
+    {
+      "numero": 7,
+      "resumo": "Vendedor exibe certidões (matrícula, INSS, Tributos e Contribuições Federais, Dívida Ativa da União).",
+      "certidoes": {
+        "matricula_inteiro_teor": {
+          "pasta": 1,
+          "folhas": 2
+        },
+        "inss": {
+          "numero": 1,
+          "serie": 2,
+          "data": "01/01/2000"
+        },
+        "tributos_contribuicoes_federais": {
+          "data": "01/01/2000"
+        },
+        "divida_ativa_uniao": {
+          "data": "01/01/2000"
+        }
+      }
+    },
+    {
+      "numero": 8,
+      "resumo": "Vendedor declara inexistência de ações reais ou pessoais reipersecutórias sobre o imóvel."
+    },
+    {
+      "numero": "9A",
+      "resumo": "Encargos, despesas e tributos que incidirem a partir da data do leilão são de responsabilidade do comprador.",
+      "aplicavel_a": "compra e venda regular de imóveis"
+    },
+    {
+      "numero": "9B",
+      "resumo": "Encargos, despesas e tributos, independentemente da data do fato gerador, são de exclusiva responsabilidade do comprador.",
+      "aplicavel_a": "compra e venda de fração ideal e demais hipóteses previstas em Edital"
+    },
+    {
+      "numero": 10,
+      "resumo": "Comprador dispensa apresentação e arquivamento das certidões de feitos ajuizados (Lei 7.433/85 e Decreto 93.240/86)."
+    },
+    {
+      "numero": 11,
+      "resumo": "Comprador deve apresentar comprovação do registro da escritura no CRI competente em até 60 dias da outorga, salvo prorrogação."
+    },
+    {
+      "numero": "11.1",
+      "resumo": "Descumprimento autoriza o vendedor a cobrar multa mensal de 2% do valor do instrumento, atualização pelo IGP-M/FGV pro-rata-die (defasagem de 1 mês) e juros de 1% ao mês, mês ou fração.",
+      "multa_percentual_mensal": 2.0,
+      "juros_percentual_mensal": 1.0,
+      "indice_correcao": "IGP-M/FGV (pro-rata-die, defasagem de 1 mês)"
+    },
+    {
+      "numero": 12,
+      "resumo": "Foro eleito: Comarca da Capital do Estado do Rio Grande do Sul."
+    },
+    {
+      "numero": 13,
+      "resumo": "Partes aceitam a escritura; dão quitação mútua; autorizam o Registro de Imóveis competente a proceder aos registros e averbações."
+    }
+  ],
+  "foro_eleito": "Comarca da Capital do Estado do Rio Grande do Sul",
+  "assinaturas": {
+    "data": {
+      "dia": "01",
+      "mes": "01",
+      "ano": "2000"
+    },
+    "vendedor": "Fulano",
+    "comprador": "Ciclano",
+    "testemunhas": [
+      {
+        "nome": "Fulana",
+        "rg": "12345678",
+        "cpf": "12345678901"
+      },
+      {
+        "nome": "Ciclana",
+        "rg": "12345678",
+        "cpf": "12345678901"
+      }
+    ]
+  }
+}

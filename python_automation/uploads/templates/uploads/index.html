@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insira seu PDF</title>
+</head>
+<body>
+    <h1>Enviar Arquivo</h1>
+    <form action="" method="POST" enctype="multipart/form-data">]
+        {% csrf_token %}
+        <input type="file" name="arquivo">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
